@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Halaman Daftar</title>
+</head>
+<body>
+	<fieldset class="kotak_daftar">
+		<form action="login.html" target="blank" method="POST" onSubmit="validasi()">
+			<p class="tulisan_daftar"><b>SILAHKAN DAFTAR</b></p>
+			&nbsp;
+			<h3>Nama Lengkap</h3>
+			<input type="text" name="nama" class="form_daftar" id="nama" placeholder="Nama Lengkap">
+
+			<h3>Password</h3>
+			<input type="text" name="password" class="form_daftar" id="password" placeholder="Buat Password">
+
+			<h3>E-mail</h3>
+			<input type="email" name="email" class="form_daftar" id="email" placeholder="Masukkan E-mail">
+
+			<h3>Tanggal Lahir</h3>
+			<input type="date" class="form_daftar">
+
+			<h3>Jenis Kelamin</h3>
+			<select id="jenis_kelamin" name="jenis_kelamin">
+			<option value="Pria">Pria</option>
+			<option value="Wanita">Wanita</option>
+
+			<input type="submit" class="tombol_daftar" value="DAFTAR">
+			<p align="center" class="text">Sudah punya akun? <a href="login.html">Masuk</a></p>
+		</form>
+	</fieldset>
+
+<script src="script.js"></script>
+</body>
+</html>
