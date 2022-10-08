@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wadah-navigasi{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navigasi{
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navigasi .wadah-navigasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.navigasi ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigasi a{
+    color: black;
+    text-decoration: none;
+    padding: 7px 15px;
+}
+
+.navigasi a:hover{
+    color: #2C3333;
+}
+
+.navigasi .aktif{
+    font-weight: bold;
+}
+
+.logo{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.menu{
+    position: relative;
+    display: inline-block;
+}
+
+.logo-mini{
+    font-size: 13px;
+}
+
+.isi-menu{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.isi-menu a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.isi-menu a:hover{
+    background-color: #f1f1f1
+}
+
+.menu:hover .isi-menu {
+    display: block;
+}
+
+h1{
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+p{
+    margin-top: 15px;
+}
+
+h1:hover{
+    color: #040303;
+    letter-spacing: 2px;
+}
+
+.foto-profil, .foto-sosmed{
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 5px;
+    background: white;
+    margin: 15px;
+    transition: 0.2s;
+    opacity: 100%;
+    width: 4cm;
+    height: 4cm;
+    object-fit: cover;
+    margin-top: 50px;
+}
+
+.foto-profil:hover, .foto-sosmed:hover{
+    transform: scale(1.2);
+    opacity: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.foto-sosmed{
+    padding: 2px;
+}
+
+.kartu{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 4px;
+    margin-top: -35px;
+}
+
+.kartu:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1024px;
+    margin-top: 30px;
+}
+
+th{
+    background-color: #040303;
+}
+
+td{
+    background-color: #2C3333;
+}
+
+td, th{
+    border: 1px solid grey;
+    color: #dddddd;
+    padding: 8px;
+}
+
+td:first-child{
+    text-align: center;
+}
+
+td:hover{
+    background-color: black;
+}
+
+.judul{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.judul-tabel{
+    background-color: whitesmoke;
+}
+
+.tengah{
+    text-align: center;
+}
+
+.konten{
+    margin-top: 180px;
+}
+
+.tombol{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    text-decoration: none;
+    min-width: 80px;
+}
+
+.tombol:hover{
+    background-color: #45a049;
+}
+
+.tombol-merah{
+    background-color: #e42528;
+}
+
+.tombol-merah:hover{
+    background-color: #cf2124;
+}
+
+#kontak{
+    margin-bottom: 20px;
+}
+
+.wadah-tentang-saya, .wadah-kontak{
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+#p-tentang-saya{
+    font-size: 28px;
+}
+
+.wadah-tentang-saya p{
+    text-align: justify;
+}
+
+ol{
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wadah-sertifikat{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 250px;
+}
+
+.sertifikat{
+    margin: 8px;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 400px;
+    border-radius: 4px;
+}
+
+.sertifikat:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.panjang{
+    width: 100cm;
+}
+
+
+.foto-sertifikat{
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    transition: 0.3s;
+}
+
+.foto-sertifikat:hover{
+    transform: scale(1.1);
+}
+
+.foto-panjang{
+    width: 8cm;
+    height: 7.5cm;
+    margin-left: 47px;
+}
+
+.nama-sertifikat{
+    padding: 15px;
+    text-align: center;
+}
+
+#kontak{
+    margin-top: 1000px;
+}
+
+#sertifikat{
+    font-size: 28px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+input[type=text], input[type=email], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+textarea{
+    height: 150px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+    height: 200px;
+    color: white;
+    background-color: #2C3333;
+    align-items: center;
+}
+
+.pembungkus-catatan-kaki{
+    margin-bottom: 28px;
+}
+
+.catatan-kaki{
+    margin-top: 120px;
+    margin-left: 38px;
+}
+
+.sosial-media{
+    width: 40px;
+    height: 40px;
+}
+
+@media only screen and (max-width: 640px){
+    .logo{
+        display: none;
+    }
+
+    .navigasi a{
+        font-size: 12px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .isi-menu a{
+        font-size: 11px;
+    }
+
+    .kartu{
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .wadah-tentang-saya, .wadah-kontak{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .tanda-tangan{
+        margin-right: 20px;
+    }
+
+    .foto-panjang{
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+
+    .panjang{
+        width: 95%;
+    }
+
+    .sertifikat{
+        min-width: 320px;
+        margin-left: -27px;
+    }
+}

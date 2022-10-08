@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-hitam.css">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body id="hitam">
+    <nav class="navigasi">
+        <div class="wadah-navigasi">
+            <span class="logo"><a href="index.html">Rangga</a></span>
+            <ul>
+                <li class="aktif" id="nav-isi1"><a href="#">Beranda</a></li>
+                <li class="tidak-aktif" id="nav-isi2"><a href="#tentang-saya">Tentang Saya</a></li>
+                <div class="menu">
+                    <li><a href="#">Tugas <span class="logo-mini">v</span></a></li>
+                    <div class="isi-menu">
+                        <a href="p03/tabel.html">Tabel 10 Teman</a>
+                        <a href="p03css/tabel-2.html">Tabel 5 teman</a>
+                        <a href="p03jquery/tabel-3.html">Tabel JQuery</a>
+                        <a href="p03form-lv1/form.html">Form lv1</a>
+                        <a href="p04css-basic/form-2.html">Form lv2</a>
+                        <a href="p04css-responsive/form-3.html">Form Responsive</a>
+                        <a href="p05-jquery-delete/tabel-4.html">Tabel JQuery FadeOut</a>
+                        <a href="p04-static-kop-surat/kop-surat.html">Static Kop Surat</a>
+                        <a href="p05-jquery-sliding/tombol.html">JQuery Sliding</a>
+                        <a href="p06-spa-menu/menu.html">SPA Menu</a>
+                    </div>
+                </div>
+                <li class="tidak-aktif" id="nav-isi3"><a href="#kontak">Kontak</a></li>
+                <li><a><img src="img/icon/icon-tema.png" alt="Ganti Tema" onclick="gantiTema()" width="29px"></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="kartu wadah-kartu">
+        <div class="konten tengah"><br>
+            <h1>Hallo Perkenalkan</h1>
+            <p>Saya Azharangga Kusuma <br><br> NIM: 41226142 &nbsp; Prodi: Teknik Informatika</p>
+
+            <img src="img/foto.jpg" alt="Pas Foto" class="foto-profil"><br><br>
+
+            <button onclick="alert('Mohon maaf halaman ini masih dalam tahap pengembangan')" class="tombol">Download CV</button>
+        </div><br>
+    </div>
+
+    <div class="wadah-tentang-saya" id="tentang-saya">
+        <h2 class="tengah" id="p-tentang-saya">Tentang Saya</h2><br>
+        <p>Perkenalkan nama saya Azharangga Kusuma. Saya berdomisili didesa Cipeujeuh Wetan Kecamatan Lemahabang Kabupaten Cirebon. Saya lulusan dari SMK Muhammadiyah Lemahabang jurusan Teknik Komputer dan Jaringan (TKJ). Sekarang saya melanjutkan pendidikan ke jenjang yang lebih tinggi di STMIK IKMI Cirebon. Saya mengambil Program Studi Teknik Informatika.</p>
+        <p>Riwayat Pendidikan (Formal):</p>
+        <ol>
+            <li>SD Negeri 1 Karang Suwung (2008 - 2014)</li>
+            <li>SMP Muhammadiyah Lemahabang (2014 - 2017)</li>
+            <li>SMK Muhammadiyah Lemahabang - Teknik Komputer dan Jaringan (2017 - 2020)</li>
+            <li>STMIK IKMI Cirebon - S1 Teknik Informatika (2021 - Sekarang)</li>
+        </ol>
+        <p>Riwayat Pendidikan (Non-Formal)</p>
+        <ol>
+            <li>Pelatihan dan Sertifikasi MTCNA - MikroTik Academy (2019 - Cirebon)</li>
+            <li>Pelatihan dan Sertifikasi CNSS - International Cybersecurity Institute UK (2020)</li>
+            <li>Program Pendidikan Kecakapan Kerja TKJ - PT Bonet Utama Bogor (2020 - Bogor)</li>
+            <li>Pelatihan Front-end Developer - Dicoding Academy (2022)</li>
+            <li>Pelatihan dan Sertifikasi JNA - Digitalent Schoolarship (2022 - Cirebon)</li>
+            <li>Pelatihan dan Sertifikasi JWD - Digitalent Schoolarship (2022 - Cirebon)</li>
+        </ol>
+    </div>
+
+    <div class="wadah-sertifikat">
+        <h2 class="tengah" id="sertifikat">Sertifikat</h2><br>
+        <div class="sertifikat">
+            <a href="https://mikrotik.com/certificateSearch" target="_blank">
+                <img src="img/Sertifikat/MTCNA.jpg" alt="" class="foto-sertifikat">
+            </a>
+            <div class="nama-sertifikat"><b>MikroTik Certified Network Associate</b> <br><br> MikroTik Academy</div><br>
+        </div>
+
+        <div class="sertifikat">
+            <a href="#" target="_blank">
+                <img src="img/Sertifikat/NDG Linux Unhatched.jpg" alt="" class="foto-sertifikat">
+            </a>
+            <div class="nama-sertifikat"><b>NDG Linux Unhatched</b> <br><br> Cisco Networking Academy</div><br>
+        </div>
+
+        <div class="sertifikat">
+            <a href="#" target="_blank">
+                <img src="img/Sertifikat/NDG Linux Essentials.jpg" alt="" class="foto-sertifikat">
+            </a>
+            <div class="nama-sertifikat"><b>NDG Linux Essentials</b> <br><br> Cisco Networking Academy</div><br>
+        </div>
+
+        <div class="sertifikat">
+            <a href="https://www.credential.net/123e0738-6880-44ee-bbb9-e30d44553df9" target="_blank">
+                <img src="img/Sertifikat/CNSS.jpg" alt="" class="foto-sertifikat">
+            </a>
+            <div class="nama-sertifikat"><b>Certified Network Security Specialist</b> <br><br> International Cybersecurity Institute</div><br>
+        </div>
+
+        <div class="sertifikat">
+            <a href="#" target="_blank">
+                <img src="img/Sertifikat/Juara-3.png" alt="" class="foto-sertifikat">
+            </a>
+            <div class="nama-sertifikat"><b>Juara 3 - ADCOM Challenge</b> <br><br> ADCOM - Frontend Developer</div><br>
+        </div>
+
+        <div class="sertifikat">
+            <a href="https://www.dicoding.com/certificates/N9ZO76366ZG5" target="_blank">
+                <img src="img/Sertifikat/Dasar Pemrograman Web.jpg" alt="" class="foto-sertifikat">
+            </a>
+            <div class="nama-sertifikat"><b>Dasar Pemrograman Web</b> <br><br> Dicoding Academy</div><br>
+        </div>
+
+        <div class="sertifikat">
+            <a href="#" target="_blank">
+                <img src="img/Sertifikat/PCAP.jpg" alt="" class="foto-sertifikat">
+            </a>
+            <div class="nama-sertifikat"><b>Programming Essentials in Python</b> <br><br> Cisco Networking Academy</div><br>
+        </div>
+
+        <div class="sertifikat">
+            <a href="#" target="_blank">
+                <img src="img/Sertifikat/CCNAv7.jpg" alt="" class="foto-sertifikat">
+            </a>
+            <div class="nama-sertifikat"><b>CCNAv7 - Introduction to Network</b> <br><br> Cisco Networking Academy</div><br>
+        </div>
+
+        <div class="sertifikat panjang">
+            <a href="#" target="_blank">
+                <img src="img/Sertifikat/BNSP-JNA.jpg" alt="" class="foto-sertifikat foto-panjang">
+            </a>
+            <div class="nama-sertifikat"><b>Junior Network Administrator</b> <br><br> Badan Nasional Sertifikasi Profesi</div><br>
+        </div>
+    </div>
+    <br><br><br><br><br>
+
+    <div class="wadah-kontak" id="kontak">
+        <h2 class="tengah">Kontak Saya</h2>
+        <p class="tengah">Jika anda ada pertanyaan!</p>
+        <form action="#" method="post">
+            <label for="fname">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" placeholder="Ketikan nama lengkap">
+            
+            <label for="lname">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Ketikan E-mail">
+            
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" name="pesan" placeholder="Ketikan Sesuatu..."></textarea>
+
+            <div class="tengah">
+                <input type="submit" value="Kirim" class="tombol">
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="pembungkus-catatan-kaki">
+            <a href="https://wa.me/+62895364527280" target="_blank"><img src="img/icon/whatsapp.png" alt="WhatsApp" class="sosial-media foto-sosmed"></a>
+            <a href="https://instagram.com/azharangga_kusuma" target="_blank"><img src="img/icon/instagram.png" alt="Instagram" class="sosial-media foto-sosmed"></a>
+            <a href="https://youtube.com/channel/UCnKjszzhKbvQ9zqbo9kKjpg" target="_blank"><img src="img/icon/youtube.png" alt="YouTube" class="sosial-media foto-sosmed"></a>
+            <a href="https://www.linkedin.com/in/azharangga-kusuma-9a30911a0/" target="_blank"><img src="img/icon/linkedin.png" alt="YouTube" class="sosial-media foto-sosmed"></a>
+            <br>
+            <span class="catatan-kaki">2022 - Azharangga Kusuma</span>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script/main.js"></script>
+</body>
+</html>

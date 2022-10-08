@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.pembungkus-kop-surat{
+    margin-bottom: 28px;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+
+.nama-kampus-1{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+ol li{
+    margin-top: 10px;
+}
+
+.nama-kampus-2{
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+hr{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 5px;
+    background-color: black;
+}
+
+.tengah{
+    text-align: center;
+}
+
+.pembungkus-form{
+    margin-left: 50px;
+    margin-right: 45px;
+}
+
+input[type=text], select, textarea, input[type=date], input[type=number]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    line-height: 20px;
+    max-width: 1170px;
+}
+
+input[type=text], select, textarea, input[type=date], input[type=number], input[type=radio]{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+fieldset{
+    margin-top: 20px;
+}
+
+.isi-form{
+    margin-left: 50px;
+}
+.sub-form{
+    margin-left: 20px;
+}
+textarea{
+    height: 150px;
+}
+
+option:first-child{
+    display: none;
+}
+
+.tanda-tangan{
+    margin-left: 1024px;
+    margin-top: 20px;
+}
+
+.tanggal{
+    min-width: 50px;
+}
+
+.tombol{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+    min-width: 80px;
+}
+
+.tombol:hover{
+    background-color: #45a049;
+}
+
+.tombol-merah{
+    background-color: #e42528;
+}
+
+.tombol-merah:hover{
+    background-color: #cf2124;
+}

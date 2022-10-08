@@ -1,0 +1,42 @@
+.tema-hitam, .tema-hitam nav{
+    color: white;
+    background-color: #2C3333;
+}
+
+.tema-hitam .navigasi{
+    box-shadow: 0 4px 8px 0 grey;
+}
+
+.tema-hitam nav a{
+    color: white;
+}
+
+.tema-hitam nav a:hover{
+    color: grey;
+}
+
+.tema-hitam .isi-menu{
+    background-color: #2C3333;
+}
+
+.tema-hitam .kartu{
+    box-shadow: 0 4px 8px 0 grey;
+}
+
+.tema-hitam .kartu:hover{
+    box-shadow: 0 8px 16px 0 grey;
+}
+
+.tema-hitam .sertifikat{
+    border: 1px grey solid;
+}
+
+.tema-hitam input[type=text],.tema-hitam input[type=email], .tema-hitam textarea{
+    border: 1px grey solid;
+    color: white;
+    background-color: #110e0ed0;
+}
+
+.tema-hitam footer{
+    background-color: #110e0ed0;
+}

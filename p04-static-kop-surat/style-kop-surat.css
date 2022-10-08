@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+.pembungkus-kop-surat{
+    width: 100%;
+    border: 1px solid #ccc;
+    max-width: 21cm;
+    max-height: 29cm;
+    margin: auto;
+    padding: 1cm 1cm 1cm 1cm;
+    background-color: white
+}
+
+.sampul-kop-surat{
+    width: 20cm;
+    height: 3.5cm;
+    display: grid;
+    grid-template-columns: 11cm 8cm;
+}
+
+.logo-ikmi{
+    width: 1.8cm;
+    margin-top: 5px;
+}
+
+.judul-surat{
+    width: 19cm;
+    height: 24cm;
+}
+
+.pembungkus-logo{
+    height: 2cm;
+}
+
+.sampul-logo{
+    text-align: center;
+}
+
+.logo-kiri{
+    display: grid;
+    grid-template-columns: 2cm auto;
+}
+
+.pembungkus-alamat{
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.tebal{
+    font-weight: bold;
+}
+
+.sampul-sk{
+    height: 0.6cm;
+    padding-top: 1.5px;
+}
+
+.warna-sk{
+    background-color: red;
+}
+
+.warna-terakreditasi{
+    background-color: green;
+}
+
+.warna-sk, .warna-terakreditasi{
+    text-align: center;
+    color: white;
+}
+
+.warna-kampus{
+    font-size: 11px;
+    letter-spacing: .2px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 7px;
+    padding-top: 5px;
+}
+
+.warna-stmik{
+    font-size: 60px;
+    font-weight: bold;
+    color: red;
+    margin-top: -10px;
+    letter-spacing: 5px;
+    padding-left: 10px;
+}
+
+.warna-ikmi{
+    color: blue;
+    font-size: 32px;
+    letter-spacing: 10px;
+    margin-top: -2.5px;
+}
+.warna-cirebon{
+    color: green;
+    letter-spacing: 5.5px;
+    font-size: 16px;
+    margin-top: -7px;
+}
+
+.warna-ikmi, .warna-cirebon{
+    padding-left: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.sampul-stmik-ikmi{
+    display: grid;
+    grid-template-columns: 5.5cm auto;
+    display: pinkz;
+    margin-top: 8px;
+}
+
+.judul-surat-1{
+    text-align: center;
+    margin: 15px 0 0 0;
+    font-size: 16pt;
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+.nomor-surat{
+    text-align: center;
+    font-size: 10pt;
+    margin-top: 5px;
+}
